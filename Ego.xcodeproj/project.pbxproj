@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63136AFA0D1C2F3D00E6F424 /* post.tif in Resources */ = {isa = PBXBuildFile; fileRef = 63136AF90D1C2F3D00E6F424 /* post.tif */; };
+		63136B000D1C32D100E6F424 /* EditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136AFE0D1C32D100E6F424 /* EditorController.m */; };
+		634A48060D1D692D00FE2DE4 /* EditorSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A48050D1D692D00FE2DE4 /* EditorSupport.m */; };
+		63713BA70D1D888400AEA0E6 /* OrseeNewPostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63713BA60D1D888400AEA0E6 /* OrseeNewPostRequest.m */; };
+		63713C9B0D1DF18700AEA0E6 /* OrseeNewCategoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63713C9A0D1DF18700AEA0E6 /* OrseeNewCategoryRequest.m */; };
+		637296F90D1438DB00F002A8 /* OrseeCategoriesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 637296F80D1438DB00F002A8 /* OrseeCategoriesRequest.m */; };
+		637299BC0D1545BE00F002A8 /* update.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 637299BB0D1545BE00F002A8 /* update.tiff */; };
+		637577310D15611C0031A4CC /* OrseeRecentPostsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 637577300D15611B0031A4CC /* OrseeRecentPostsRequest.m */; };
+		637577810D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375777E0D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.m */; };
+		637577820D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 637577800D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.m */; };
+		637578250D1583C50031A4CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637578240D1583C50031A4CC /* WebKit.framework */; };
+		63CC55D80D1F265800AA182C /* edit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63CC55D70D1F265800AA182C /* edit.tiff */; };
+		63CC55E80D1F291A00AA182C /* OrseeEditPostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC55E70D1F291A00AA182C /* OrseeEditPostRequest.m */; };
+		63CC560B0D1F346100AA182C /* EgoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC560A0D1F346100AA182C /* EgoTextView.m */; };
+		63DB26D40D130EED000CA6EC /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB26D30D130EED000CA6EC /* MainWindowController.m */; };
+		63DB26F90D134370000CA6EC /* OrseeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB26F70D134370000CA6EC /* OrseeRequest.m */; };
+		63DB27560D1356FA000CA6EC /* NSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB27550D1356FA000CA6EC /* NSURLRequest.m */; };
+		63DB27770D135AFB000CA6EC /* Ego_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63DB27760D135AFB000CA6EC /* Ego_DataModel.xcdatamodeld */; };
+		63DB277B0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 63DB277A0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel */; };
+		63F79F000D16E5D50096D6ED /* Preview.nib in Resources */ = {isa = PBXBuildFile; fileRef = 63F79EFE0D16E5D50096D6ED /* Preview.nib */; };
+		63F79F170D16E75E0096D6ED /* PreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F79F160D16E75E0096D6ED /* PreviewController.m */; };
+		63F79F650D16EB9E0096D6ED /* simple.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63F79F640D16EB9E0096D6ED /* simple.css */; };
+		63F79FFC0D17035E0096D6ED /* Editor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 63F79FFA0D17035E0096D6ED /* Editor.nib */; };
+		63F7A0010D1703A40096D6ED /* newpost.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 63F7A0000D1703A40096D6ED /* newpost.tiff */; };
+		77C8280E06725ACE000B614F /* Ego_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Ego_AppDelegate.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63F79F6E0D16EC4B0096D6ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = previewThemes;
+			dstSubfolderSpec = 7;
+			files = (
+				63F79F650D16EB9E0096D6ED /* simple.css in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Ego_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ego_Prefix.pch; sourceTree = "<group>"; };
+		63136AEF0D1C2E9F00E6F424 /* PreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewController.h; sourceTree = "<group>"; };
+		63136AF90D1C2F3D00E6F424 /* post.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = post.tif; sourceTree = "<group>"; };
+		63136AFE0D1C32D100E6F424 /* EditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorController.m; sourceTree = "<group>"; };
+		63136AFF0D1C32D100E6F424 /* EditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorController.h; sourceTree = "<group>"; };
+		634A48040D1D692D00FE2DE4 /* EditorSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorSupport.h; sourceTree = "<group>"; };
+		634A48050D1D692D00FE2DE4 /* EditorSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorSupport.m; sourceTree = "<group>"; };
+		63713B420D1D811D00AEA0E6 /* Orsee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orsee.h; sourceTree = "<group>"; };
+		63713BA50D1D888400AEA0E6 /* OrseeNewPostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeNewPostRequest.h; sourceTree = "<group>"; };
+		63713BA60D1D888400AEA0E6 /* OrseeNewPostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeNewPostRequest.m; sourceTree = "<group>"; };
+		63713C990D1DF18700AEA0E6 /* OrseeNewCategoryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeNewCategoryRequest.h; sourceTree = "<group>"; };
+		63713C9A0D1DF18700AEA0E6 /* OrseeNewCategoryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeNewCategoryRequest.m; sourceTree = "<group>"; };
+		637296F70D1438DB00F002A8 /* OrseeCategoriesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeCategoriesRequest.h; sourceTree = "<group>"; };
+		637296F80D1438DB00F002A8 /* OrseeCategoriesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeCategoriesRequest.m; sourceTree = "<group>"; };
+		637299BB0D1545BE00F002A8 /* update.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = update.tiff; sourceTree = "<group>"; };
+		6375772F0D15611B0031A4CC /* OrseeRecentPostsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeRecentPostsRequest.h; sourceTree = "<group>"; };
+		637577300D15611B0031A4CC /* OrseeRecentPostsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeRecentPostsRequest.m; sourceTree = "<group>"; };
+		6375777D0D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendarDate+ISO8601Parsing.h"; sourceTree = "<group>"; };
+		6375777E0D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendarDate+ISO8601Parsing.m"; sourceTree = "<group>"; };
+		6375777F0D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendarDate+ISO8601Unparsing.h"; sourceTree = "<group>"; };
+		637577800D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendarDate+ISO8601Unparsing.m"; sourceTree = "<group>"; };
+		637578240D1583C50031A4CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		63CC55D70D1F265800AA182C /* edit.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = edit.tiff; sourceTree = "<group>"; };
+		63CC55E60D1F291A00AA182C /* OrseeEditPostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeEditPostRequest.h; sourceTree = "<group>"; };
+		63CC55E70D1F291A00AA182C /* OrseeEditPostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeEditPostRequest.m; sourceTree = "<group>"; };
+		63CC56090D1F346100AA182C /* EgoTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgoTextView.h; sourceTree = "<group>"; };
+		63CC560A0D1F346100AA182C /* EgoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EgoTextView.m; sourceTree = "<group>"; };
+		63DB26D20D130EED000CA6EC /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		63DB26D30D130EED000CA6EC /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		63DB26F70D134370000CA6EC /* OrseeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrseeRequest.m; sourceTree = "<group>"; };
+		63DB26F80D134370000CA6EC /* OrseeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrseeRequest.h; sourceTree = "<group>"; };
+		63DB27550D1356FA000CA6EC /* NSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLRequest.m; sourceTree = "<group>"; };
+		63DB277A0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Ego_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		63F79EFF0D16E5D50096D6ED /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preview.nib; sourceTree = "<group>"; };
+		63F79F160D16E75E0096D6ED /* PreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewController.m; sourceTree = "<group>"; };
+		63F79F640D16EB9E0096D6ED /* simple.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = simple.css; sourceTree = "<group>"; };
+		63F79FFB0D17035E0096D6ED /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Editor.nib; sourceTree = "<group>"; };
+		63F7A0000D1703A40096D6ED /* newpost.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = newpost.tiff; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* Ego_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ego_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* Ego_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ego_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Ego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				637578250D1583C50031A4CC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63136AF00D1C2EB200E6F424 /* Editor */,
+				63136AEE0D1C2E7500E6F424 /* Preview */,
+				63136AE70D1C2E5200E6F424 /* MainWindow */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637578240D1583C50031A4CC /* WebKit.framework */,
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Ego.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Ego */ = {
+			isa = PBXGroup;
+			children = (
+				63DB26DD0D13433C000CA6EC /* Orsee */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				7756732906782D8800D1FEB8 /* Models */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Ego;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63CC55D70D1F265800AA182C /* edit.tiff */,
+				63136AF90D1C2F3D00E6F424 /* post.tif */,
+				63F7A0000D1703A40096D6ED /* newpost.tiff */,
+				32CA4F630368D1EE00C91783 /* Ego_Prefix.pch */,
+				637299BB0D1545BE00F002A8 /* update.tiff */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63F79FFA0D17035E0096D6ED /* Editor.nib */,
+				63F79F630D16EB890096D6ED /* previewThemes */,
+				63F79EFE0D16E5D50096D6ED /* Preview.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63136AE70D1C2E5200E6F424 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				63DB26D20D130EED000CA6EC /* MainWindowController.h */,
+				63DB26D30D130EED000CA6EC /* MainWindowController.m */,
+				77C8280B06725ACE000B614F /* Ego_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* Ego_AppDelegate.m */,
+			);
+			name = MainWindow;
+			sourceTree = "<group>";
+		};
+		63136AEE0D1C2E7500E6F424 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				63F79F160D16E75E0096D6ED /* PreviewController.m */,
+				63136AEF0D1C2E9F00E6F424 /* PreviewController.h */,
+			);
+			name = Preview;
+			sourceTree = "<group>";
+		};
+		63136AF00D1C2EB200E6F424 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				63136AFE0D1C32D100E6F424 /* EditorController.m */,
+				63136AFF0D1C32D100E6F424 /* EditorController.h */,
+				634A48040D1D692D00FE2DE4 /* EditorSupport.h */,
+				634A48050D1D692D00FE2DE4 /* EditorSupport.m */,
+				63CC56090D1F346100AA182C /* EgoTextView.h */,
+				63CC560A0D1F346100AA182C /* EgoTextView.m */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		637577830D1565360031A4CC /* iso */ = {
+			isa = PBXGroup;
+			children = (
+				6375777D0D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.h */,
+				6375777E0D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.m */,
+				6375777F0D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.h */,
+				637577800D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.m */,
+			);
+			name = iso;
+			sourceTree = "<group>";
+		};
+		63DB26DD0D13433C000CA6EC /* Orsee */ = {
+			isa = PBXGroup;
+			children = (
+				637577830D1565360031A4CC /* iso */,
+				63DB26F70D134370000CA6EC /* OrseeRequest.m */,
+				63DB26F80D134370000CA6EC /* OrseeRequest.h */,
+				63DB27550D1356FA000CA6EC /* NSURLRequest.m */,
+				637296F70D1438DB00F002A8 /* OrseeCategoriesRequest.h */,
+				637296F80D1438DB00F002A8 /* OrseeCategoriesRequest.m */,
+				6375772F0D15611B0031A4CC /* OrseeRecentPostsRequest.h */,
+				637577300D15611B0031A4CC /* OrseeRecentPostsRequest.m */,
+				63713B420D1D811D00AEA0E6 /* Orsee.h */,
+				63713BA50D1D888400AEA0E6 /* OrseeNewPostRequest.h */,
+				63713BA60D1D888400AEA0E6 /* OrseeNewPostRequest.m */,
+				63713C990D1DF18700AEA0E6 /* OrseeNewCategoryRequest.h */,
+				63713C9A0D1DF18700AEA0E6 /* OrseeNewCategoryRequest.m */,
+				63CC55E60D1F291A00AA182C /* OrseeEditPostRequest.h */,
+				63CC55E70D1F291A00AA182C /* OrseeEditPostRequest.m */,
+			);
+			name = Orsee;
+			sourceTree = "<group>";
+		};
+		63F79F630D16EB890096D6ED /* previewThemes */ = {
+			isa = PBXGroup;
+			children = (
+				63F79F640D16EB9E0096D6ED /* simple.css */,
+			);
+			name = previewThemes;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63DB27760D135AFB000CA6EC /* Ego_DataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Ego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Ego" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				63F79F6E0D16EC4B0096D6ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ego;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Ego;
+			productReference = 8D1107320486CEB800E47090 /* Ego.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Ego" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Ego */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Ego */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				637299BC0D1545BE00F002A8 /* update.tiff in Resources */,
+				63F79F000D16E5D50096D6ED /* Preview.nib in Resources */,
+				63F79FFC0D17035E0096D6ED /* Editor.nib in Resources */,
+				63F7A0010D1703A40096D6ED /* newpost.tiff in Resources */,
+				63136AFA0D1C2F3D00E6F424 /* post.tif in Resources */,
+				63CC55D80D1F265800AA182C /* edit.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* Ego_AppDelegate.m in Sources */,
+				63DB27770D135AFB000CA6EC /* Ego_DataModel.xcdatamodeld in Sources */,
+				63DB26D40D130EED000CA6EC /* MainWindowController.m in Sources */,
+				63DB26F90D134370000CA6EC /* OrseeRequest.m in Sources */,
+				63DB27560D1356FA000CA6EC /* NSURLRequest.m in Sources */,
+				63DB277B0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel in Sources */,
+				637296F90D1438DB00F002A8 /* OrseeCategoriesRequest.m in Sources */,
+				637577310D15611C0031A4CC /* OrseeRecentPostsRequest.m in Sources */,
+				637577810D1565220031A4CC /* NSCalendarDate+ISO8601Parsing.m in Sources */,
+				637577820D1565220031A4CC /* NSCalendarDate+ISO8601Unparsing.m in Sources */,
+				63F79F170D16E75E0096D6ED /* PreviewController.m in Sources */,
+				63136B000D1C32D100E6F424 /* EditorController.m in Sources */,
+				634A48060D1D692D00FE2DE4 /* EditorSupport.m in Sources */,
+				63713BA70D1D888400AEA0E6 /* OrseeNewPostRequest.m in Sources */,
+				63713C9B0D1DF18700AEA0E6 /* OrseeNewCategoryRequest.m in Sources */,
+				63CC55E80D1F291A00AA182C /* OrseeEditPostRequest.m in Sources */,
+				63CC560B0D1F346100AA182C /* EgoTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		63F79EFE0D16E5D50096D6ED /* Preview.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F79EFF0D16E5D50096D6ED /* English */,
+			);
+			name = Preview.nib;
+			sourceTree = "<group>";
+		};
+		63F79FFA0D17035E0096D6ED /* Editor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F79FFB0D17035E0096D6ED /* English */,
+			);
+			name = Editor.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ego_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Ego;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ego_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Ego;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Ego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Ego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63DB27760D135AFB000CA6EC /* Ego_DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63DB277A0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel */,
+			);
+			currentVersion = 63DB277A0D135BB6000CA6EC /* Ego_DataModel.xcdatamodel */;
+			path = Ego_DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
